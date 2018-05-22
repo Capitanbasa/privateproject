@@ -1,0 +1,64 @@
+@media (max-width: 1400px) { 
+	
+	/* Typography breakpoint start 1350 */
+	
+	.bt_bb_headline {
+		h1,h2,h3,h4,h5,h6 {
+			.bt_bb_size_extralarge& {
+				font-size: 3rem;
+			}
+		}
+	}
+	
+	/* /Typography breakpoint */
+}
+
+@media (max-width: 1199px) {
+
+	/* Typography breakpoint start 1200 */
+	
+	.bt_bb_headline {
+		h1,h2,h3,h4,h5,h6 {
+			.bt_bb_size_huge& {
+				font-size: 4rem;
+			}
+		}
+	}
+	
+	body { font-size: 14px; }
+
+	/* /Typography breakpoint */
+
+}
+
+@media (max-width: 360px) {
+	
+	/* Typography breakpoint start 360 */
+	
+	.bt_bb_headline {
+		h1,h2,h3,h4,h5,h6 {
+			.bt_bb_size_huge& {
+				font-size: 3rem;
+			}
+		}
+	}
+	
+	body { font-size: 13px; }
+
+	/* Typography breakpoint */
+	
+	.btMenuVertical .mainHeader {
+		width: 280px;
+	}
+	
+	.btMenuVerticalLeft.btMenuVerticalOn {
+		.btContentWrap,  .btVerticalHeaderTop {
+			transform: translateX(260px);
+			.rtl& {transform: translateX(-260px);}
+		}
+	}
+
+	.btMenuVerticalRight.btMenuVerticalOn .btContentWrap {
+		transform: translateX(-260px);
+	}
+}

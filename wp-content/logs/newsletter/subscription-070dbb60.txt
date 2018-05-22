@@ -1,0 +1,7 @@
+24-10-2013 15:12:26 - ERROR - 5237028 - Subscription of an address with status S
+08-11-2013 06:52:54 - ERROR - 5238008 - Subscription of an address with status S
+08-11-2013 06:54:22 - ERROR - 5233584 - Subscription of an address with status S
+08-11-2013 06:54:24 - ERROR - 27476848 - Subscription of an address with status S
+08-11-2013 06:54:25 - ERROR - 5233584 - Subscription of an address with status S
+08-11-2013 06:54:25 - ERROR - 5233584 - Subscription of an address with status S
+27-12-2013 09:11:44 - ERROR - 5300576 - Subscription of an address with status S

@@ -1,0 +1,2 @@
+25-04-2018 08:50:50 - FATAL - m: 43.5 MB, u: 0 -  - 37.32.29.212 - HTTP method invalid
+30-04-2018 00:41:05 - FATAL - m: 43.5 MB, u: 0 -  - 84.22.61.46 - HTTP method invalid

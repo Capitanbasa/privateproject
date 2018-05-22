@@ -1,0 +1,19 @@
+Tuesday, 12-Jan-2016 09:18:37 - backup started
+Tuesday, 12-Jan-2016 09:18:37 - wp version     : 4.2.6
+Tuesday, 12-Jan-2016 09:18:37 - php version    : 5.3.24
+Tuesday, 12-Jan-2016 09:18:37 - mysql version  : 5.0.96
+Tuesday, 12-Jan-2016 09:18:37 - memory limit   : 1024M
+Tuesday, 12-Jan-2016 09:18:37 - execution time : 600
+Tuesday, 12-Jan-2016 09:18:37 - mysql timeout  : 600
+Tuesday, 12-Jan-2016 09:18:37 - socket timeout : 600
+Tuesday, 12-Jan-2016 09:18:37 - files larger than 25 MB will be excluded from the backup
+Tuesday, 12-Jan-2016 09:18:37 - generating file list
+Tuesday, 12-Jan-2016 09:18:37 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/backups/tripleinew-backup.sql.08c1a146035a3cc14ef1ba70a952712209eafc82-wpb2d-secret"  63.66 MB
+Tuesday, 12-Jan-2016 09:18:38 - 1 files were excluded from the backup
+Tuesday, 12-Jan-2016 09:18:38 - number of files to include in the archive is 7171, and their uncompressed size is 134.64 MB
+Tuesday, 12-Jan-2016 09:18:38 - finished generating file list
+Tuesday, 12-Jan-2016 09:18:38 - database backup started
+Tuesday, 12-Jan-2016 09:18:38 - backing up tables with "wp_" prefix
+Tuesday, 12-Jan-2016 09:18:38 - number of tables to backup - 28
+Tuesday, 12-Jan-2016 09:18:52 - database backup finished
+Tuesday, 12-Jan-2016 09:18:52 - archiving files using ziparchive

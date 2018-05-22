@@ -1,0 +1,120 @@
+/** header styles **/
+.header, .content-holder{
+  border-top: 8px solid #a6242c;
+}
+
+.top-header{
+  height: 50px;
+  background-color: #e5e5e5;
+}
+.top-links-container{
+  margin: 0 auto;
+  padding: 9px 0px;
+}
+.top-links-container div{
+  float:left;
+}
+#search-3{
+  clear:none;
+}
+#search-submit{
+  margin-left: 3px;
+  margin-top: 1px;
+}
+.contact-text{
+  float: right;
+  padding: 8px 5px 0px;
+  color: #9a9a9a;
+  font-size: 14px;
+}
+div[data-motopress-sidebar-id="header"]{
+  width: 338px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+#social_networks-4{
+  float:left;
+}
+#fpl-top-header{
+  display: none;
+}
+.top-links-wrapper{
+  float:right !important;
+  margin-right: 32px;
+}
+.contact-phone-number{
+  color: #bc3f47;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 6px;
+  padding-top: 31px;
+}
+
+.social.social__row .social_li a{
+  font-size: 20px;
+  line-height: 31px;
+  width: 30px;
+  height: 30px;
+}
+
+.contact-text {
+float: right;
+padding: 14px 5px 0px;
+color: #9a9a9a;
+font-size: 26px;
+}
+.contact-phone-number {
+color: #bc3f47;
+font-weight: bold;
+font-size: 40px;
+margin-left: 0px;
+padding-top: 13px;
+float: right;
+clear: both;
+}
+#social_networks-4{
+  float:right;
+}
+
+
+
+@media (max-width: 979px) {
+  div[data-motopress-sidebar-id="header"]{
+    margin-right:0px;
+    min-height: 89px !important;
+  }
+  .select-menu{
+    display: block;
+  }
+  #topnav{
+    display: none;
+  }
+  .top-links-wrapper {
+    margin-right:0px;
+  }
+  .logo{
+    width: 400px;
+  }
+  .logo img{
+    width: 100%;
+  }
+}
+@media (max-width:710px){
+  div[data-motopress-sidebar-id="header"]{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 658px){
+  .top-links-wrapper {
+    margin-right:22px;
+  }
+@media (max-width: 530px){
+  #fpl-top-header{
+    height:auto;
+  }
+  #search-3{
+    margin-left: 20px;
+  }
+}
+

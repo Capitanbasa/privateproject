@@ -1,0 +1,108 @@
+#contactUsRight{
+  position:absolute;
+  top:0;
+  width: 228px;
+}
+.contactUsRight.fixed{
+  position:fixed;
+
+}
+#contactUsButton{
+  font-weight: normal;
+}
+#contactWrapper{
+  position: absolute;
+  /*top: 220px;*/
+  width: 213px;
+}
+.contactBtn{
+  width:261px;
+  font-size: 18px;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+.contactFormFields input, .contactFormFields textarea, .contactFormFields select{
+  width: 92%;
+}
+#contactFormResult{
+  margin-top: 9px;
+}
+#contactFormResult > div{
+  padding: 5px 5px;
+}
+
+#inputMeetingType {
+  width: 100%;
+}
+
+.bootstrap-datetimepicker-widget:after{
+  display:none !important;
+}
+
+.bootstrap-datetimepicker-widget:before{
+ display: none !important;
+}
+#datetimepickerContainer{
+  display:none;
+}
+#datetimepickerMeeting > .add-on{
+  padding: 0px 5px;
+}
+.modal{
+  position: absolute;
+}
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url('images/valid.png') center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+#datetimepickerMeeting > .error{
+  float:right !important; 
+  /*margin-right: 350px;*/
+}
+#datetimepickerContainer input{
+  float:left;
+  width: 125px;
+}
+#datetimepickerMeeting label.valid {
+float: left;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #bf785d;
+}
+#dp_done{
+ float:left; 
+}
+#inputMeetingType{
+  font-size:14px  ;
+}
+@media (max-width:1199px){
+  .contactBtn{
+  width:213px;
+  }
+}
+@media (max-width: 979px) {
+  .contactBtn{
+    width:166px;
+  }
+  #contactWrapper{
+    top: 395px;
+  }
+}
+@media (max-width: 658px){
+  .contactBtn{
+    width:270px;
+    display:none;
+  }
+}
+

@@ -1,0 +1,29 @@
+<?php get_header(); ?>
+<header class="top-header" id="fpl-top-header" style="display: block;"><div class="top-links-container container">
+				<div class="top-links-wrapper"><div id="nav_menu-4"><div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2134"><a href="http://www.tripleiconsulting.com/contacts/">Contact Us</a></li>
+<li id="menu-item-2072" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-103 current_page_item current_page_parent menu-item-2072"><a href="http://www.tripleiconsulting.com/blog/">Blog</a></li>
+<li id="menu-item-2492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2492"><a href="http://www.tripleiconsulting.com/about-us/">About Us</a></li>
+</ul></div></div><div id="text-7">			<div class="textwidget"><select name="languageSelect" class="languageSelector"><option>English</option><option value=" http://www.gtar.com.ar/ ">German</option><option value="http://www.gta.am ">Spanish</option><option value="http://www.grantthornton.com.au">French</option><option value="http://www.grantthornton.at/home.html">Mandarin</option><option value="http://www.grantthornton.at/home.html">Korean</option></select></div>
+		</div><div id="search-3"><div class="search-form">
+	<form id="searchform" method="get" action="http://www.tripleiconsulting.com" accept-charset="utf-8">
+		<input type="text" value="" name="s" id="s" class="search-form_it"><input type="submit" value="search" id="search-submit" class="search-form_is btn btn-primary"></form>
+</div></div></div>
+			</div>
+	</header><div class="motopress-wrapper content-holder clearfix">
+    <div class="container">
+        <div class="row" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php">
+            <div class="span12" data-motopress-wrapper-file="index.php" data-motopress-wrapper-type="content" data-motopress-id="51e76ec4a95d1">
+                <div class="row" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php">
+                    <div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php"><?php get_template_part("static/static-title"); ?></div>
+                </div>
+                <div class="row" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php">
+                    <div class="span8 right" id="content" data-motopress-type="loop" data-motopress-loop-file="loop/loop-blog.php" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php"><?php get_template_part("loop/loop-blog"); ?></div><b>
+                    <div class="span4" data-motopress-id="52940e3530b1f" data-motopress-wrapper-id="2" data-motopress-file="index.php"><div class="row" data-motopress-id="52940e3f16d05" data-motopress-file="index.php"><div class="span4" data-motopress-type="static" style="" data-motopress-static-file="static/static-5293fee8e9ae9.php" data-motopress-id="52940e3f16d4d" data-motopress-file="index.php"><?php get_template_part("static/static-5293fee8e9ae9"); ?></div></div><div class="row" data-motopress-id="52940e3f16d90" data-motopress-file="index.php"><div class="span4 sidebar" id="sidebar" data-motopress-type="static-sidebar" data-motopress-sidebar-file="sidebar.php" data-motopress-id="51e76ec4a95d1" data-motopress-file="index.php"><?php get_sidebar(); ?></div></div></div>
+                </b></div><b>
+            </b></div><b>
+        </b></div><b>
+    </b></div><b>
+</b></div><b>
+		</b>
+
+<?php get_footer(); ?>

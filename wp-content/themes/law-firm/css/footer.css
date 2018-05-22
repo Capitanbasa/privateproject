@@ -1,0 +1,152 @@
+/* Footer copyright */
+
+.btSiteFooter {
+	font-size: 0.9em;
+	@fragment btClear;
+	.copyLine {
+		margin-bottom: 0;
+	}
+	.btFooterMenu .menu {
+		margin: 0 -1em;
+		padding: 0;
+		list-style: none;
+		width: 100%;
+		display: inline-block;
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 0 1em;
+		}
+	}
+}
+
+.btSiteFooterWidgets {
+	padding-top: 8em;
+	font-weight: 300;
+	#boldSiteFooterWidgetsRow {
+		justify-content: initial;
+		display: flex;
+		flex-flow: row wrap;
+		.btBox {
+			background-color: transparent;
+			margin-bottom: 6em;
+			flex: 1 1 25%;
+			max-width: 25%;
+			.btImage img {
+				margin: initial;
+			}
+		}
+		&[data-width="6"] .btBox {
+			flex: 0 0 33.33%;
+			width: 33.33%;
+			max-width: 33.33%;
+		}
+		&[data-width="5"] .btBox {
+			flex: 0 0 20%;
+			width: 20%;
+			max-width: 20%;
+		}
+		&[data-width="4"] .btBox {
+			flex: 0 0 25%;
+			width: 25%;
+			max-width: 25%;
+		}
+		&[data-width="3"] .btBox {
+			flex: 0 0 33.33%;
+			width: 33.33%;
+			max-width: 33.33%;
+		}
+		&[data-width="2"] .btBox {
+			flex: 0 0 50%;
+			width: 50%;
+			max-width: 50%;
+		}
+	}
+}
+
+.btSiteFooterCopyMenu {
+	box-shadow: 0 0 7px 0 rgba(0,0,0,.15) inset; 
+	.port > div {
+		display: flex;
+		width: 100%;
+		.btFooterCopy, .btFooterMenu {
+			padding-top: 2em;
+			padding-bottom: 2em;
+			flex: 1 1 50%;
+		}
+		.btFooterMenu {
+			text-align: right;
+			.rtl & {
+				text-align: left;
+			}
+		}
+		.btFooterCopy {
+			.rtl & {
+				text-align: right;
+			}
+		}
+	}
+}
+
+:lightSkinSelector {
+	.btSiteFooterWidgets {
+		background: $(lightBgColor);
+	}
+	.btSiteFooterCopyMenu {
+		background: $(darkFontColor);
+		.port:before {
+			background-color: $(lightFontColor);
+		}
+	}
+}
+
+:darkSkinSelector {
+	.btSiteFooterWidgets {
+		background: $(darkBgColor);
+	}
+	.btSiteFooterCopyMenu {
+		background: $(darkBgColor);
+		.port:before {
+			background-color: $(accentColor);
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.btSiteFooter {
+		.port div {
+			.btFooterCopy, .btFooterMenu {
+				padding-top: 1em;
+				padding-bottom: 1em;
+				text-align: center;
+			}
+		}
+	}
+	.btSiteFooterWidgets {
+		#boldSiteFooterWidgetsRow {
+			display: block;
+			.btBox {
+				width: 100% !important;
+				max-width: 100% !important;
+			}
+		}
+		.btIconWidgetContent {
+			width: 100%;
+			ul.cart_list {width: 100%;}
+		}
+	}
+	.btSiteFooterCopyMenu .port > div {
+		display: block;
+	}
+}
+
+@media (max-width: 620px) {
+	.btSiteFooterWidgets {
+		#boldSiteFooterWidgetsRow {
+			.btBox {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+}

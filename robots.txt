@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /main/*
+Disallow: /boxcontent/
+Disallow: /cgi-bin/
+Disallow: /new/
+Sitemap: http://www.tripleiconsulting.com/sitemap_index.xml
+http://www.tripleiconsulting.com/post-sitemap.xml
+http://www.tripleiconsulting.com/page-sitemap.xml
