@@ -739,3 +739,4 @@ a:5:{s:7:"user_id";i:9;s:10:"user_login";s:12:"Victor Viana";s:15:"user_remotead
 {"user_id":18,"user_login":"valaragon","user_remoteaddr":"127.0.0.1","user_hostname":"localhost","user_lastlogin":"2018-05-15 08:50:46"}
 {"user_id":18,"user_login":"valaragon","user_remoteaddr":"127.0.0.1","user_hostname":"localhost","user_lastlogin":"2018-05-17 09:02:58"}
 {"user_id":18,"user_login":"valaragon","user_remoteaddr":"127.0.0.1","user_hostname":"localhost","user_lastlogin":"2018-05-22 05:49:29"}
+{"user_id":18,"user_login":"valaragon","user_remoteaddr":"127.0.0.1","user_hostname":"localhost","user_lastlogin":"2018-05-28 07:58:25"}
